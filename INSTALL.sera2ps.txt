@@ -1,0 +1,75 @@
+
+
+BEFORE STARTING
+
+First, check if you have the GNU C compiler on your system.  You
+may do this by typing "gcc" at your command line.  If you get any
+message other than "gcc: Command not found.", then most likely
+you do have it.  If not, you will be able to compile most of the 
+files with regular "cc" but the "coco" executable.  You may then
+wish build everything else and obtain a copy of "coco" from a friend
+who compiled on a machine just like yours.  Sorry about this, it
+should not be a limitation in the future. 
+
+To unpack  :
+
+  tar -zxvf sera2ps-2.3.8.tar.gz
+
+( or in two steps :
+  gunzip sera2ps-2.3.8.tar.gz 
+  tar -xvf sera2ps-2.3.8.tar
+)
+
+TO COMPILE:  
+
+        % make       - makes everything.
+        % make clean - removes unnecessary files.
+
+You should now be ready to laser print the sample files in
+the "docs" directory.  Read the "README" file for usage
+instructions.
+
+
+IF YOU DO NOT HAVE gcc AND flex
+
+You should then have ``cc'' and ``lex''.  You may edit the sera2/Makefile 
+in lines 2 and 5 for gcc and flex.
+
+
+DEFAULT LANGUAGE
+
+You may change the default language rules by editing commenting out and
+uncommenting the choices on lines 29-31 of the sera2/sera2.c file.  
+Tigrigna rules are the default if no change is made.
+
+
+Installing Man Pages
+---------------------
+
+The files docs/pssera.1, docs/sera.1, docs/sera2any.1 are provided man
+page instructions for Unix systems.  If you can not install the
+man pages into a system man directory.  You may create your own
+man directory by:
+
+   % cd sera2ps-2.3.8
+   % mkdir man
+   % mkdir man/man1
+   % cp docs/*.1 man/man1
+   % setenv MANPATH $MANPATH":"$PWD/man
+   % man pssera
+   % man sera
+   % man sera2any
+
+It is more practical to set your new MANPATH in your .cshrc file
+where the $PWD/man directory in the above is replaced the complete
+path name for your man directory.
+
+
+Libeth And DOS I/O
+------------------
+
+If you expect to go between DOS and Unix regularly you may wish to
+compile libeth to perform DOS text conversions.  DOS I/O is NOT the
+default compilation for libeth as it slows down the transliteration
+performance for large files.  Follow the directions in 
+sera2/README.dosio to install for DOS support.

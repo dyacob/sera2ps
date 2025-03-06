@@ -1,0 +1,14 @@
+#!/bin/sh
+# Usage: pssera [-in coding-system ] [options_of_m2ps ..] <infile >outfile
+
+CODING=
+
+eval file="\$$#"    # requires file to be last item
+last=`expr $# - 1`
+flags=`echo $* | cut -d" " -f-$last`
+
+
+SERADIR=sera2
+M2PSDIR=m2ps/lib-src
+<$file $SERADIR/sera2any -o jun $flags | $M2PSDIR/coco ${CODING} '*internal*' | $M2PSDIR/m2ps  
+

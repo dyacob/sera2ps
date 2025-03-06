@@ -1,0 +1,44 @@
+## LIST OF CHARACTER SETS
+## LC:BYTES:COLUMNS:TYPE:GRAPHIC:FINAL-CHAR:DIRECTION:DOC[:BDF-FILE[:ENCODING]]
+000:1:1:0:0:66:0:ASCII:cmr10d300.bdf:0
+129:2:1:1:1:65:0:Latin-1:etl24-latin1.bdf:1
+130:2:1:1:1:66:0:Latin-2:etl24-latin2.bdf:1
+131:2:1:1:1:67:0:Latin-3:etl24-latin3.bdf:1
+132:2:1:1:1:68:0:Latin-4:etl24-latin4.bdf:1
+133:2:1:1:1:84:0:Thai:etl24-thai.bdf:1
+134:2:1:1:1:70:0:Greek:etl24-greek.bdf:1
+135:2:1:1:1:71:1:Arabic
+136:2:1:1:1:72:1:Hebrew:etl24-hebrew.bdf:1
+137:2:1:0:1:73:0:Japanese Katakana:12x24rk.bdf:1
+138:2:1:0:0:74:0:Japanese Roman:12x24rk.bdf:0
+140:2:1:1:1:76:0:Cyrillic:etl24-cyrillic.bdf:1
+141:2:1:1:1:77:0:Latin-5:etl24-latin5.bdf:1
+144:3:2:2:0:64:0:Japanese Old
+145:3:2:2:0:65:0:Chinese:gb24st.bdf
+146:3:2:2:0:66:0:Japanese:jiskan24.bdf
+147:3:2:2:0:67:0:Korean:hanglm24.bdf
+148:3:2:2:0:68:0:Japanese Supplement:min-1-24.bdf
+149:3:2:2:0:71:0:CNS Plane1
+150:3:2:2:0:72:0:CNS Plane2
+152:3:2:2:0:48:0:Big5 Level 1:taipei24.bdf
+153:3:2:2:0:49:0:Big5 Level 2:taipei24.bdf
+154:3:1:0:0:0:255:1-byte/1-column private character sets
+155:3:2:0:0:0:255:1-byte/2-column private character sets
+156:4:1:2:0:0:255:2-byte/1-column private character sets
+157:4:2:2:0:0:255:2-byte/2-column private character sets
+160:3:1:0:0:48:0:PinYin-ZhuYin:etl24-sisheng.bdf:0
+161:3:1:0:0:66:1:Right-to-Left ASCII:etl24-latin1.bdf:0
+162:3:1:1:1:49:0:VISCII lower:etl24-viscii.bdf
+163:3:1:1:1:50:0:VISCII upper:etl24-viscii.bdf
+164:3:1:0:0:50:0:Arabic digit:etl24-arabic0.bdf:0
+165:3:1:0:0:51:1:1-column Arabic:etl24-arabic1.bdf:0
+166:3:1:1:1:48:0:IPA for Mule:etl24-ipa.bdf:1
+224:3:2:0:0:52:1:2-column Arabic:etl24-arabic2.bdf:0
+245:4:2:2:0:50:0:Ethio:ethiomx10d300-uni.bdf:0
+## CCL PROGRAM TO CONVERT INTERNAL TO OUTERNAL CODE
+## LC:CCL-PROGRAMS
+152: 0 1c fa a1 1 5ef7 2 1f9 0 73a a1 1 1fa 9d 3 71a a1 0 9d37 4 1a3c 3f 10 4037 0 1c04 6237 0 16
+153: 0 1e fa a1 1 5ef7 2 1f9 0 a1f7 1 73a 1888 0 1fa 9d 3 71a a1 0 9d37 4 1c3c 3f 10 4037 0 1e04 6237 0 16
+162: 0 104 123 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 0 0 b5 b6 b7 b8 0 0 0 0 bd be 0 0 0 0 0 0 0 c6 c7 0 0 0 0 0 0 0 cf 0 d1 0 0 0 d5 d6 d7 d8 0 0 db dc 0 de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe 0 16
+163: 0 104 123 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 0 0 93 96 97 98 0 0 0 0 b4 95 0 0 0 0 0 0 0 2 5 0 0 0 0 0 0 0 9f 0 ba 0 0 0 80 14 bb bc 0 0 19 1e 0 b3 bf c0 c1 c2 c3 c4 c5 ff 6 c8 c9 ca cb cc cd ce 9b d0 b9 d2 d3 d4 a0 99 9a 9e d9 da 9d 9c dd 94 0 16
+245: 0 12 a117 1 a137 1 5e17 2 39 0 f3c 100 10 0 1204 10037 1 100 16

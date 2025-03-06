@@ -1,0 +1,54 @@
+.\" @(#)sera2ps.1 2.3.1 96/20/01
+.\" GNU Copyleft 1996 Admas Concepts
+.TH sera2ps 1 "11 Tr 1988 (20 Jan 1996)" "Admas Concepts"
+.SH NAME
+.B pssera 
+\- converts SERA Fidel into PostScript Fidel
+.SH SYNOPSIS
+.B pssera
+[
+.I -h
+]
+[
+.I -l
+]
+[
+.I -s
+]
+[
+.I -stats
+] <
+.I infile ...
+>
+.br
+.SH DESCRIPTION
+\f4pssera\fP
+is a script that calls sera2any to convert SERA files into PostScript
+format using the Mule ``coco'' package. 
+.SH OPTIONS
+.TP
+.B \-\^h
+Echoes help list to stderr and exits.
+.TP
+.B \-\^l LL(L)
+Set starting language to that specified by LL or LLL where LL(L)
+is an ISO-639 two or three letter identifier.  Supported languages
+are: am(h), ge(z), la(t), & ti(r).  This option is most useful with
+the -a option.
+.TP
+.B \-\^s
+Replace ASCII space with Ge'ez wordspace (:).
+.TP
+.B \-\^stats 
+Provides a Fidel table with statistical output of character
+occurrences into the files ``fidel.stats'' and fidel2.stats.
+
+.SH AVAILABILITY
+.LP
+By ftp:  ftp.cs.indiana.edu/pub/fidel/sera2ps/
+
+.SH SEE ALSO
+sera(1), coco(1), m2ps(1), mule(1)
+
+.SH BUGS
+None reported, but lurking...
