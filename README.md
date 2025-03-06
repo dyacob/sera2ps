@@ -61,7 +61,7 @@ features these three options:
 
 
 -stats) Provides a Fidel table with statistical output of character
-        occurrences into the files ``fidel.stats'' & fidel2.stats.
+        occurrences into the files "fidel.stats" & fidel2.stats.
 
 You may use the -s , -l , and -stats options together.
 The files "docs/recipe", "docs/fidel" and "docs/fidel2" are provided samples.
@@ -125,10 +125,10 @@ SERA
 Extended documents for The System for Ethiopic Representation in ASCII (SERA)
 by World Wide Web at : 
 
-   http://abyssiniagateway.net/fidel/fidel.html
-   http://abyssiniagateway.net/fidel/sera-faq.html
+    http://abyssiniagateway.net/fidel/fidel.html
+    http://abyssiniagateway.net/fidel/sera-faq.html
 and
-   ftp://ftp.geez.org/pub/fidel/sera-docs/
+    ftp://ftp.geez.org/pub/fidel/sera-docs/
 
 
 The file "docs/fidel" gives an outline of the ASCII system.
@@ -148,7 +148,7 @@ Briefly, characters are representation goes like :
      Consonants With 12 forms:
      hWe  hWu/hW'  hWi   hWa   hWE
 
-     *NOTE:  ``a'' may be used in place of ``e'' for the first lone
+     *NOTE:  "a" may be used in place of "e" for the first lone
              vowel ONLY in Amharic text zones.  See INSTALL for
              setting Amharic as a default language.
 
@@ -174,4 +174,4 @@ before viewing, unless the file name ends with ".sera" which is the
 sera-save-as indicator for Mule 2.2+.
 
 You may delete the files lib-src/*.o without consequence after compilation
-is successful (use ``make clean'').
+is successful (use "make clean").
