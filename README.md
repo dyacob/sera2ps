@@ -34,14 +34,14 @@ command line:
 	pssera myfile | lp
 
 "lpr" may be substituted for "lp" or the command you usually use with your
-postscript printer. If you have `ghostview', or another postscript previewer,
+postscript printer. If you have 'ghostview', or another postscript previewer,
 and would like to view a file before printing do :
 
 	pssera myfile > outfile 
 	ghostview outfile
  
 Eview v0.49 may also be used to preview the file SERA file.  pssera is a
-script file that calls the SERA to Junet encoder `sera2any'.  pssera
+script file that calls the SERA to Junet encoder 'sera2any'.  pssera
 features these three options:
 
 
@@ -80,7 +80,7 @@ An example:
 
 
 ALSO!!  If you move pssera outside of the sera2ps directory you will need
-to recompile (reperform the `make' command) after editing:
+to recompile (reperform the 'make' command) after editing:
 
 m2ps/src/config.h  Line 160
 ---------------------------
@@ -93,7 +93,7 @@ m2ps/src/paths.h  Line 23
     after :  #define PATH_DATA "/my/new/path/etc:m2ps/etc" 
 
 Where /my/new/path/xx  is the path that you would have to enter at the
-copmmand line to `cd' TO find these files FROM where you will house the
+copmmand line to `cd` TO find these files FROM where you will house the
 pssera script.
 
 
@@ -103,7 +103,7 @@ BUGS
 
 If bugs are found in the sera2any converter, please email them to:
 
-   yacob@padis.gn.apc.org
+    yacob@padis.gn.apc.org
 
 If problems are encountered with Ethiopic printing, it is most probably
 a problem with the font and may be adjusted readily.  Please send a
