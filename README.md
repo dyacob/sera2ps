@@ -125,9 +125,11 @@ SERA
 Extended documents for The System for Ethiopic Representation in ASCII (SERA)
 by World Wide Web at : 
 
-    http://abyssiniagateway.net/fidel/fidel.html
-    http://abyssiniagateway.net/fidel/sera-faq.html
+    [http://abyssiniagateway.net/fidel/fidel.html](http://abyssiniagateway.net/fidel/fidel.html)
+    [http://abyssiniagateway.net/fidel/sera-faq.html](http://abyssiniagateway.net/fidel/sera-faq.html)
+
 and
+
     ftp://ftp.geez.org/pub/fidel/sera-docs/
 
 
