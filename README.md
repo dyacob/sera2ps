@@ -37,8 +37,8 @@ command line:
 postscript printer. If you have `ghostview', or another postscript previewer,
 and would like to view a file before printing do :
 
-   pssera myfile > outfile 
-   ghostview outfile
+	pssera myfile > outfile 
+	ghostview outfile
  
 Eview v0.49 may also be used to preview the file SERA file.  pssera is a
 script file that calls the SERA to Junet encoder `sera2any'.  pssera
