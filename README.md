@@ -9,8 +9,8 @@
 SERA2PS 2.3.8
 =============
 
-This package is an extension of the `any2ps' (v2.0 beta), utility developed by
-Ken'ichi Handa (ntakahas@etl.go.jp).  "coco" and "any2ps" are a part of
+This package is an extension of the [`any2ps`](https://www.unix.com/man_page/osf1/1/any2ps/) (v2.0 beta), utility developed by
+Ken'ichi Handa (ntakahas@etl.go.jp).  `coco` and `any2ps` are a part of
 Mule 2.2+ , sera2ps is the minimal subset of the Mule package that will enable
 users without Mule to obtain the same postscript printing capability.
 No less true than previously: "this is a hack".
@@ -33,8 +33,8 @@ command line:
 
 	pssera myfile | lp
 
-"lpr" may be substituted for "lp" or the command you usually use with your
-postscript printer. If you have 'ghostview', or another postscript previewer,
+`lpr` may be substituted for `lp` or the command you usually use with your
+postscript printer. If you have `ghostview`, or another postscript previewer,
 and would like to view a file before printing do :
 
 	pssera myfile > outfile 
@@ -80,7 +80,7 @@ An example:
 
 
 ALSO!!  If you move pssera outside of the sera2ps directory you will need
-to recompile (reperform the 'make' command) after editing:
+to recompile (reperform the `make` command) after editing:
 
 m2ps/src/config.h  Line 160
 ---------------------------
