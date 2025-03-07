@@ -1,7 +1,7 @@
 # ETHIOPIC POSTSCRIPT FROM LATIN SERA FILES
 
 ## NOTE
-*This is a archived work last updated in 1996, it is not expected to
+*This is an archived work last updated in 1996, it is not expected to
  build out-of-the-box.  Abundant and better quality solutions are
  available today.*
 
